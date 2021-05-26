@@ -8,7 +8,8 @@ public class MainActivity extends AppCompatActivity {
 
     EditText edtTextOut;
     ImageButton btnEnviar, btnOn, btnOff;
-    
+    TextView edtTextOut;
+    Button btnDesconectar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -56,15 +56,15 @@
         android:background="#FFFFFF"
         android:contentDescription="@string/strconten"
         android:scaleType="fitStart"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintBottom_toBottomOf="@+id/btnOff"
+        app:layout_constraintEnd_toStartOf="@+id/btnOff"
         app:layout_constraintHorizontal_bias="0.719"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:srcCompat="@drawable/verde" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/btnOff"
         android:layout_width="103dp"
         android:layout_height="104dp"
         android:layout_marginTop="44dp"

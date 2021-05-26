@@ -53,4 +53,13 @@
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="98dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/rojo"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="102dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

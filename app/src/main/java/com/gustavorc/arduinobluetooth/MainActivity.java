@@ -21,5 +21,17 @@ public class MainActivity extends AppCompatActivity {
         btnOff = findViewById(R.id.btnOff);
         tvtMensaje = findViewById(R.id.tvtMensaje);
         btnDesconectar = findViewById(R.id.btnDesconectar);
+
+        btnEnviar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+
+            }
+        });
+
+
     }
+
+
+
 }

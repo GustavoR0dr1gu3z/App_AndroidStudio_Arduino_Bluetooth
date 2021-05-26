@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-
+                string dato = edtTextOut.getString.toString();
+                
             }
         });
 

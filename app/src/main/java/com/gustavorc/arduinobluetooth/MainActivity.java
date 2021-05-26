@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnOn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+
+            }
+        });
+
         btnOff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
@@ -36,7 +43,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        
+        btnDesconectar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+
+            }
+        });
+
+
 
     }
 

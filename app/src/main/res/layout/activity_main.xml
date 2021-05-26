@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtTextOut"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnOff"
         app:layout_constraintHorizontal_bias="0.719"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTextOut"
         app:srcCompat="@drawable/verde" />
 
     <ImageButton
@@ -73,7 +73,7 @@
         android:contentDescription="@string/strconten"
         android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTextOut"
         app:srcCompat="@drawable/rojo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

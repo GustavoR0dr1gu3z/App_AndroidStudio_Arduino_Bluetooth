@@ -43,6 +43,7 @@
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:background="#70673AB7"
+        android:contentDescription="@string/strconten"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_enter" />
@@ -53,6 +54,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="48dp"
         android:background="#FFFFFF"
+        android:contentDescription="@string/strconten"
         android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
         app:layout_constraintEnd_toStartOf="@+id/imageButton6"
@@ -68,6 +70,7 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="96dp"
         android:background="#FFFFFF"
+        android:contentDescription="@string/strconten"
         android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"

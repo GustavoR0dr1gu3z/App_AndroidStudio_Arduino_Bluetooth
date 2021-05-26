@@ -44,24 +44,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_enter" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="fitStart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/on"
-        tools:layout_editor_absoluteY="105dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/off"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="117dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

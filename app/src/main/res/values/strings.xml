@@ -3,5 +3,5 @@
     <string name="strconten">IMAGEN</string>
     <string name="strdesc">DESCONECTAR</string>
     <string name="strescriba">Escriba un Texto</string>
-
+    <string name="strresp">Respuesta</string>
 </resources>

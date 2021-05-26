@@ -8,7 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText edtTextOut;
     ImageButton btnEnviar, btnOn, btnOff;
-    TextView edtTextOut;
+    TextView tvtMensaje;
     Button btnDesconectar;
 
     @Override

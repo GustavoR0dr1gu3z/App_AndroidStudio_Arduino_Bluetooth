@@ -3,6 +3,10 @@ package com.gustavorc.arduinobluetooth;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 string dato = edtTextOut.getString.toString();
                 tvtMensaje.setText(dato);
-                
+
             }
         });
 

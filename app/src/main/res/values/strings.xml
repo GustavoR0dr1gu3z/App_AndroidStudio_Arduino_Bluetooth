@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Arduino Bluetooth</string>
     <string name="strconten">IMAGEN</string>
+    <string name="strdesc">DESCONECTAR</string>
 </resources>

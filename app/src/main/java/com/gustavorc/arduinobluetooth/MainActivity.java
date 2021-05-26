@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         edtTextOut = findViewById(R.id.edtTextOut);
-        
+        btnEnviar = findViewById(R.id.btnEnviar);
+        btnOn = findViewById(R.id.btnOn);
+        btnOff = findViewById(R.id.btnOff);
+        tvtMensaje = findViewById(R.id.tvtMensaje);
+        btnDesconectar = findViewById(R.id.btnDesconectar);
     }
 }

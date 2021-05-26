@@ -55,4 +55,13 @@
         app:srcCompat="@drawable/on"
         tools:layout_editor_absoluteY="105dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="121dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.gustavorc.arduinobluetooth;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                string dato = edtTextOut.getString.toString();
+                String dato = edtTextOut.getText().toString();
                 tvtMensaje.setText(dato);
 
             }

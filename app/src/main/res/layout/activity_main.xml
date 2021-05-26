@@ -33,13 +33,13 @@
         android:ems="10"
         android:hint="@string/strescriba"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/btnEnviar"
+        app:layout_constraintEnd_toStartOf="@+id/btnEnviar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnEnviar"
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:background="#70673AB7"

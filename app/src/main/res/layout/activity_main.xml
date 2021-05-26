@@ -36,7 +36,6 @@
         android:hint="@string/strescriba"
         android:inputType="textPersonName"
         android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/btnEnviar"
         app:layout_constraintEnd_toStartOf="@+id/btnEnviar"
         app:layout_constraintStart_toStartOf="parent"

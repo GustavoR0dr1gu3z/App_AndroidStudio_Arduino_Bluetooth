@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 String dato = edtTextOut.getText().toString();
                 tvtMensaje.setText(dato);
-
             }
         });
 

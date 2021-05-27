@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity {
@@ -82,7 +84,13 @@ public class MainActivity extends AppCompatActivity {
         btnDesconectar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-
+                if (btSocket!=null)
+                {
+                    try {btSocket.close();}
+                    catch (IOException e)
+                    { Toast.makeText(getBaseContext(), "Error", Toast.LENGTH_SHORT).show();;}
+                }
+                finish()
             }
         });
 

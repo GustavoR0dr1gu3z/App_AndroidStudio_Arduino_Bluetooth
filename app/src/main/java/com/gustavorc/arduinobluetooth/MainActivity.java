@@ -37,6 +37,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        bluetoothIn = new Handler() {
+            public void handleMessage(android.os.Message msg) {
+                if (msg.what == handlerState) {
+
+                    //Interacción con los datos de ingreso
+                }
+            }
+        };
+
+        btAdapter = BluetoothAdapter.getDefaultAdapter(); // get Bluetooth adapter
+        VerificarEstadoBT();
+
         edtTextOut = findViewById(R.id.edtTextOut);
         btnEnviar = findViewById(R.id.btnEnviar);
         btnOn = findViewById(R.id.btnOn);

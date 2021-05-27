@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.Set;
+
 public class DispositivosVinculados extends AppCompatActivity {
 
     // Depuración de LOGCAT

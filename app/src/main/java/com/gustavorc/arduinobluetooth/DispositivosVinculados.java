@@ -52,7 +52,7 @@ public class DispositivosVinculados extends AppCompatActivity {
         // Obtiene el adaptador local Bluetooth adapter
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
 
-        Set pairedDevices = mBtAdapter.getBondedDevices();
+        Set<BluetoothDevice> pairedDevices = mBtAdapter.getBondedDevices();
 
         // Adiciona un dispositivos emparejado al array
         if (pairedDevices.size() > 0)

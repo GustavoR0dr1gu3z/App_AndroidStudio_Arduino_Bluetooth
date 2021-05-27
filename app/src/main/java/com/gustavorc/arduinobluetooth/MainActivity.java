@@ -52,25 +52,14 @@ public class MainActivity extends AppCompatActivity {
                     //Interacción con los datos de ingreso
                     char MyCaracter = (char) msg.obj;
 
-                    if(MyCaracter == 'a'){
-                        tvtMensaje.setText("ACELERANDO");
-                    }
-
                     if(MyCaracter == 'i'){
-                        tvtMensaje.setText("GIRO IZQUIERDA");
+                        tvtMensaje.setText("ENCENDIDO");
                     }
 
-                    if(MyCaracter == 'd'){
-                        tvtMensaje.setText("GIRO DERECHA");
+                    if(MyCaracter == 'o'){
+                        tvtMensaje.setText("APAGADO");
                     }
 
-                    if(MyCaracter == 'r'){
-                        tvtMensaje.setText("RETROCEDIENDO");
-                    }
-
-                    if(MyCaracter == 's'){
-                        tvtMensaje.setText("DETENIDO");
-                    }
                 }
             }
         };
@@ -90,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 String dato = edtTextOut.getText().toString();
                 //tvtMensaje.setText(dato);
-                MyConexionBT.write
+                MyConexionBT.write(dato);
             }
         });
 

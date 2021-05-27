@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     catch (IOException e)
                     { Toast.makeText(getBaseContext(), "Error", Toast.LENGTH_SHORT).show();;}
                 }
-                finish()
+                finish();
             }
         });
 

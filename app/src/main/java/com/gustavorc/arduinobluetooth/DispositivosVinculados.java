@@ -18,7 +18,7 @@ public class DispositivosVinculados extends AppCompatActivity {
 
     // Declaracion de campos
     private BluetoothAdapter mBtAdapter;
-    private ArrayAdapter mPairedDevicesArrayAdapt;
+    private ArrayAdapter mPairedDevicesArrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

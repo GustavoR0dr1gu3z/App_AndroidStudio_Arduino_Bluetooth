@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 String dato = edtTextOut.getText().toString();
-                tvtMensaje.setText(dato);
+                //tvtMensaje.setText(dato);
+                MyConexionBT.write
             }
         });
 

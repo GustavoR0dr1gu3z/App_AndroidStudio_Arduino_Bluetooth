@@ -50,6 +50,27 @@ public class MainActivity extends AppCompatActivity {
                 if (msg.what == handlerState) {
 
                     //Interacción con los datos de ingreso
+                    char MyCaracter = (char) msg.obj;
+
+                    if(MyCaracter == 'a'){
+                        tvtMensaje.setText("ACELERANDO");
+                    }
+
+                    if(MyCaracter == 'i'){
+                        tvtMensaje.setText("GIRO IZQUIERDA");
+                    }
+
+                    if(MyCaracter == 'd'){
+                        tvtMensaje.setText("GIRO DERECHA");
+                    }
+
+                    if(MyCaracter == 'r'){
+                        tvtMensaje.setText("RETROCEDIENDO");
+                    }
+
+                    if(MyCaracter == 's'){
+                        tvtMensaje.setText("DETENIDO");
+                    }
                 }
             }
         };

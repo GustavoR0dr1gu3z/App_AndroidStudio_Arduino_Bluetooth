@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
                     //Interacción con los datos de ingreso
                     char MyCaracter = (char) msg.obj;
 
-                    if(MyCaracter == 'i'){
+                    if(MyCaracter == 'I'){
                         tvtMensaje.setText("ENCENDIDO");
                     }
 
-                    if(MyCaracter == 'o'){
+                    if(MyCaracter == 'O'){
                         tvtMensaje.setText("APAGADO");
                     }
 

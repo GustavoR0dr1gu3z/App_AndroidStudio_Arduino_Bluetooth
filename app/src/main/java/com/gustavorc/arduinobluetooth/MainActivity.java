@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         btnOn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-
+                MyConexionBT.write("i");
             }
         });
 

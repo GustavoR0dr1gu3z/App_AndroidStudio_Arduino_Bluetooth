@@ -114,6 +114,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnSec1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                MyConexionBT.write("O");
+            }
+        });
+
+        btnSec2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                MyConexionBT.write("O");
+            }
+        });
+
+        btnSec3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                MyConexionBT.write("O");
+            }
+        });
+
+
         btnDesconectar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){

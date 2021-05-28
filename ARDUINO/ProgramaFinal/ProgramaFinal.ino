@@ -48,7 +48,7 @@ void loop()
       digitalWrite(led6, LOW);
       digitalWrite(led7, LOW);
     }
-    if(DATO == 'U'){
+    if(DATO == 'U'){            //ENCENDER DE IZQUIERDA A DERECHA
       digitalWrite(led0, HIGH);
       delay(60);
       digitalWrite(led1, LOW);

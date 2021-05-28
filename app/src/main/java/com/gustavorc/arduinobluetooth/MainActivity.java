@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText edtTextOut;
     ImageButton btnEnviar, btnOn, btnOff;
-    TextView tvtMensaje;
+    TextView tvtMensaje, txtInst;
     Button btnDesconectar, btnSec1, btnSec2, btnSec3;
 
 

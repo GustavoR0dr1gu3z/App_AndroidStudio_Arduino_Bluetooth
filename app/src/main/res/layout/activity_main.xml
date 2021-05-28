@@ -128,8 +128,8 @@
 
     <TextView
         android:id="@+id/txtInst"
-        android:layout_width="371dp"
-        android:layout_height="134dp"
+        android:layout_width="369dp"
+        android:layout_height="90dp"
         android:hint="@string/strins"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvtMensaje"

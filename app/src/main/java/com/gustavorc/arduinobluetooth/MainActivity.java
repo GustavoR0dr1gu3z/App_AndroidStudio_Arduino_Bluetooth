@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     EditText edtTextOut;
     ImageButton btnEnviar, btnOn, btnOff;
     TextView tvtMensaje;
-    Button btnDesconectar;
+    Button btnDesconectar, btnSec1, btnSec2, btnSec3;
+
 
     //-------------------------------------------
     Handler bluetoothIn;

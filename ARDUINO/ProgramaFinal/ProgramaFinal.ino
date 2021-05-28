@@ -29,13 +29,20 @@ void loop()
   {
     DATO = miBT.read();
     if(DATO == 'I'){
-      digitalWrite(led, HIGH);
+      digitalWrite(led0, HIGH);
+      digitalWrite(led1, HIGH);
+      digitalWrite(led2, HIGH);
+      digitalWrite(led3, HIGH);
+      digitalWrite(led4, HIGH);
+      digitalWrite(led5, HIGH);
+      digitalWrite(led6, HIGH);
+      digitalWrite(led7, HIGH);
     }
     if(DATO == 'O'){
       digitalWrite(led, LOW);
     }
     if(DATO == 'U'){
-      
+      digitalWrite();
     }
     if(DATO == 'D'){
       

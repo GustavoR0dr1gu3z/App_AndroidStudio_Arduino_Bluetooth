@@ -49,7 +49,22 @@ void loop()
       digitalWrite(led7, LOW);
     }
     if(DATO == 'U'){
-      digitalWrite();
+      digitalWrite(led0, HIGH);
+      delay(60);
+      digitalWrite(led1, LOW);
+      delay(60);
+      digitalWrite(led2, HIGH);
+      delay(60);
+      digitalWrite(led3, LOW);
+      delay(60);
+      digitalWrite(led4, HIGH);
+      delay(60);
+      digitalWrite(led5, LOW);
+      delay(60);
+      digitalWrite(led6, HIGH);
+      delay(60);
+      digitalWrite(led7, LOW);
+      delay(60);
     }
     if(DATO == 'D'){
       

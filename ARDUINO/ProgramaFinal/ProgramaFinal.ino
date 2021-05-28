@@ -1,7 +1,14 @@
 #include <SoftwareSerial.h>   // Incluimos la librería  SoftwareSerial  
 SoftwareSerial miBT(10,11);    // Definimos los pines RX y TX del Arduino conectados al Bluetooth
 char DATO = 0;
-int led = 3;                // AL PIN DONDE ESTA CONECTADO
+int led0 = 0;
+int led1 = 1;
+int led2 = 2;
+int led3 = 3;
+int led4 = 4;
+int led5 = 5;
+int led6 = 6;
+int led7 = 7;
  
 void setup()
 {
@@ -26,7 +33,7 @@ void loop()
     if(DATO == 'D'){
       
     }
-    if(DATO == 'T'){
+    if(DATO == ''){
       
     }
   }

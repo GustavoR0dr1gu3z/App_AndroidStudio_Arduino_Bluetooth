@@ -80,7 +80,7 @@
         app:srcCompat="@drawable/rojo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSec1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -96,10 +96,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="Button"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/btnSec1"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="@+id/btnSec1"
+        app:layout_constraintTop_toBottomOf="@+id/btnSec1" />
 
     <Button
         android:id="@+id/button3"

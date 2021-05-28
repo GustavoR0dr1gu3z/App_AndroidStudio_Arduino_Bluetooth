@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 String dato = edtTextOut.getText().toString();
                 //tvtMensaje.setText(dato);
-                String instruccion = "I: ENCENDER \n O: APAGAR\n U: SEC1\n D: SEC2\n T: SEC3";
+                String instruccion = "I: ENCENDER \n O: APAGAR\n U: SEC1\n D: SEC2\n T: SEC3\n\n HECHO POR: Gustavo Rodriguez Calzada";
                 txtInst.setText(instruccion);
                 MyConexionBT.write(dato);
             }

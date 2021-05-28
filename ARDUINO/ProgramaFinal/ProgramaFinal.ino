@@ -20,5 +20,14 @@ void loop()
     if(DATO == 'O'){
       digitalWrite(led, LOW);
     }
+    if(DATO == 'U'){
+      
+    }
+    if(DATO == 'D'){
+      
+    }
+    if(DATO == 'T'){
+      
+    }
   }
 }

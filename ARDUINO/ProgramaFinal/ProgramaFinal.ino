@@ -39,7 +39,14 @@ void loop()
       digitalWrite(led7, HIGH);
     }
     if(DATO == 'O'){
-      digitalWrite(led, LOW);
+      digitalWrite(led0, LOW);
+      digitalWrite(led1, LOW);
+      digitalWrite(led2, LOW);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      digitalWrite(led5, LOW);
+      digitalWrite(led6, LOW);
+      digitalWrite(led7, LOW);
     }
     if(DATO == 'U'){
       digitalWrite();

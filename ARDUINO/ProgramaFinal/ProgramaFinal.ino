@@ -220,7 +220,7 @@ void loop()
       digitalWrite(led7, HIGH);
       delay(2000);      
     }
-    if(DATO == 'T'){
+    if(DATO == 'T'){            // ENCIENDEN DE IZQUIERA A CENTRO Y DERECHA A CENTRO
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
       delay(100);

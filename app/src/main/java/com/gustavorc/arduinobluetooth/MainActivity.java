@@ -117,21 +117,21 @@ public class MainActivity extends AppCompatActivity {
         btnSec1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                MyConexionBT.write("O");
+                MyConexionBT.write("U");
             }
         });
 
         btnSec2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                MyConexionBT.write("O");
+                MyConexionBT.write("D");
             }
         });
 
         btnSec3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                MyConexionBT.write("O");
+                MyConexionBT.write("T");
             }
         });
 

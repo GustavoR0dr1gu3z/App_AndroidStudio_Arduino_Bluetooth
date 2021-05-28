@@ -4,4 +4,5 @@
     <string name="strdesc">DESCONECTAR</string>
     <string name="strescriba">Escriba un Texto</string>
     <string name="strresp">Respuesta</string>
+    <string name="strins">Instrucciones</string>
 </resources>

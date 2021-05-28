@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         btnSec1 = findViewById(R.id.btnSec1);
         btnSec2 = findViewById(R.id.btnSec2);
         btnSec3 = findViewById(R.id.btnSec3);
+        txtInst = findViewById(R.id.idtxtInst);
 
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override

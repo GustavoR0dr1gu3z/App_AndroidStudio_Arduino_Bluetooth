@@ -13,7 +13,14 @@ int led7 = 7;
 void setup()
 {
   miBT.begin(38400);       // Inicializamos el puerto serie BT (Para Modo AT 2)velocidad= 38400
-  pinMode(led, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led0, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led1, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led2, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led3, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led4, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led5, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led6, OUTPUT);     // SE COMO SALIDA EL PIN
+  pinMode(led7, OUTPUT);     // SE COMO SALIDA EL PIN
 }
  
 void loop()

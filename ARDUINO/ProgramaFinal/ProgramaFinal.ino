@@ -250,7 +250,20 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);    
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);
@@ -262,7 +275,20 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);    
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);
@@ -274,7 +300,20 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);    
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);
@@ -286,7 +325,20 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);    
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);
@@ -298,7 +350,20 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);    
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);
@@ -310,7 +375,22 @@ void loop()
       delay(2000);
       digitalWrite(led0, HIGH);
       digitalWrite(led7, HIGH);
-      delay(2000);      
+      delay(2000);
+      digitalWrite(led0, LOW);
+      digitalWrite(led7, LOW);
+      delay(2000);
+      digitalWrite(led1, LOW);
+      digitalWrite(led6, LOW);
+      delay(2000);
+      digitalWrite(led2, LOW);
+      digitalWrite(led5, LOW);
+      delay(2000);
+      digitalWrite(led3, LOW);
+      digitalWrite(led4, LOW);
+      delay(2000);
+
+      
+
     }
     if(DATO == 'T'){            // ENCIENDEN DE IZQUIERA A CENTRO Y DERECHA A CENTRO
       digitalWrite(led0, HIGH);

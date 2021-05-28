@@ -61,6 +61,18 @@ public class MainActivity extends AppCompatActivity {
                         tvtMensaje.setText("APAGADO");
                     }
 
+                    if(MyCaracter == 'O'){
+                        tvtMensaje.setText("SECUENCIA 1");
+                    }
+
+                    if(MyCaracter == 'O'){
+                        tvtMensaje.setText("SECUENCIA 2");
+                    }
+
+                    if(MyCaracter == 'O'){
+                        tvtMensaje.setText("SECUENCIA 3");
+                    }
+
                 }
             }
         };

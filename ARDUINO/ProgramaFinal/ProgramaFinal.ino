@@ -146,7 +146,7 @@ void loop()
       digitalWrite(led7, LOW);
       delay(60);
     }
-    if(DATO == 'D'){
+    if(DATO == 'D'){            // SE ENCIENDEN DE ADENTRO HACIA FUERA
       digitalWrite(led3, HIGH);
       digitalWrite(led4, HIGH);
       delay(2000);

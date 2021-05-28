@@ -130,7 +130,7 @@
         android:id="@+id/txtInst"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:hint="@string/strins"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvtMensaje"
         app:layout_constraintEnd_toEndOf="parent"
